@@ -1,0 +1,20 @@
+Post http://localhost:3000/api/v1/permissions
+Content-Type: application/json
+
+{
+    "entityName":"article",
+    "create":[],
+    "read":["read", "-description"],
+    "readAll":["readAll", "-description"],
+    "update":[],
+    "delete":[]
+}
+
+{
+    "entityName":"course",
+    "create":[],
+    "read":["read", "-description", "-videos"],
+    "readAll":["readAll", "-description"],
+    "update":[],
+    "delete":[]
+}

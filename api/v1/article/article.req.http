@@ -1,0 +1,9 @@
+Post http://localhost:3000/api/v1/articles
+Content-Type: application/json
+
+{
+    "title": "test",
+    "description": "Lorem ipsum",
+    "authorId": "65bb571cc25a9ea3fd958c7d",
+    "slug": "test"
+}

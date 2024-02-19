@@ -1,0 +1,27 @@
+Get http://localhost:3000/api/v1/users
+###
+Get http://localhost:3000/api/v1/users/65bb56bdc25a9ea3fd958c79
+###
+Delete http://localhost:3000/api/v1/users/65bb56bdc25a9ea3fd958c79
+###
+Put  http://localhost:3000/api/v1/users/65bb56bdc25a9ea3fd958c79
+Content-Type: application/json
+
+{
+    "name": "sasan",
+    "userName": "sasan998",
+    "email": "sasan7878989@outlook.com",
+    "phoneNumber": "09374037397",
+    "password": "3orotrg789"
+}
+###
+Post http://localhost:3000/api/v1/users
+Content-Type: application/json
+
+{
+    "name": "Asghar",
+    "userName": "Asghar01",
+    "email": "Asghar01@outlook.com",
+    "phoneNumber": "09389876543",
+    "password": "3orotrg789"
+}

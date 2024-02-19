@@ -1,0 +1,7 @@
+Post http://localhost:3000/api/v1/roles
+Content-Type: application/json
+
+{
+    "title": "admin1",
+    "permission": "65cb946f8ed069197a822fcc"
+}
